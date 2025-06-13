@@ -81,8 +81,32 @@
 // }
 
 // console.log(nums);
+6. // practice.js
+// var friends = ["rahim", "karim", "abdul", "sadsd", "heroAlom"];
+// var longestName = friends[0];
+// for (let i = 0; i < friends.length; i++) {
+//     const name = friends[i];
+//     if (name.length > longestName.length) {
+//         longestName = name;
+//     }
+// }
+// console.log(longestName);
 
-
-
-
-
+7. // practice.js
+var numbers = [1, 2, 3, 3, 4, 4, 5, 6, 7, 8, 9, 10];
+// var uniqueNumbers = [];
+// for (let i = 0; i< numbers.length; i++) {
+//     const number = numbers[i];
+//     if (uniqueNumbers.indexOf(number) === -1) {
+//         uniqueNumbers.push(number);
+//     }
+// }
+// console.log(uniqueNumbers);
+let leargestNumber = numbers[0];
+for (let i = 0; i < numbers.length; i++) {
+    const number = numbers[i];
+    if (number > leargestNumber) {
+        leargestNumber = number;
+    }
+}
+console.log(leargestNumber);
